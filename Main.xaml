@@ -236,13 +236,13 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </uix:NClick>
-              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Work_Book]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="546,1241.33333333333" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
+              <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[Work_Book]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="546,1034.66666666667" sap2010:WorkflowViewState.IdRef="ForEachRow_2">
                 <ui:ForEachRow.Body>
                   <ActivityAction x:TypeArguments="sd:DataRow">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,1121.33333333333" sap2010:WorkflowViewState.IdRef="Sequence_26">
+                    <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="512,914.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_26">
                       <Sequence.Variables>
                         <Variable x:TypeArguments="x:String" Name="Bank_Name" />
                       </Sequence.Variables>
@@ -338,7 +338,6 @@
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
                       </uix:NClick>
-                      <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="450,86.6666666666667" sap2010:WorkflowViewState.IdRef="MessageBox_18" Text="[Bank_Name]" />
                       <Sequence DisplayName="Get data from Salesforce" sap:VirtualizedContainerService.HintSize="450,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_44">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
@@ -467,7 +466,7 @@
                           </sap:WorkflowViewStateService.ViewState>
                         </uix:NGetText>
                       </Sequence>
-                      <Sequence DisplayName="Comparison" sap:VirtualizedContainerService.HintSize="450,164.666666666667" sap2010:WorkflowViewState.IdRef="Sequence_47">
+                      <Sequence DisplayName="Comparison" sap:VirtualizedContainerService.HintSize="450,84.6666666666667" sap2010:WorkflowViewState.IdRef="Sequence_47">
                         <sap:WorkflowViewStateService.ViewState>
                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                             <x:Boolean x:Key="IsExpanded">False</x:Boolean>
